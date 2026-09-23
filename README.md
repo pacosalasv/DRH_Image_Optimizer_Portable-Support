@@ -4,11 +4,11 @@
 
 # DRH Image Optimizer Portable
 
-**Portable image optimization and conversion with GUI and CLI workflows**
+**Fast, portable image optimization and conversion for Windows — from drag-and-drop batches to controlled GUI and CLI workflows.**
 
-![Status](https://img.shields.io/badge/Status-Current%20build-22C55E?style=for-the-badge) ![Version](https://img.shields.io/badge/Version-1.5.2-00B7FF?style=for-the-badge) ![Environment](https://img.shields.io/badge/Environment-Windows%20x64-334155?style=for-the-badge)
+![Status](https://img.shields.io/badge/Status-Current%20Release-22C55E?style=for-the-badge) ![Version](https://img.shields.io/badge/Version-1.5.2-00B7FF?style=for-the-badge) ![Platform](https://img.shields.io/badge/Platform-Windows%20x64-334155?style=for-the-badge)
 
-[![Support](https://img.shields.io/badge/Support-Issues%20%26%20Discussions-1E5BFF?style=for-the-badge)](https://github.com/pacosalasv/DRH_Image_Optimizer_Portable-Support/issues) [![Paco Salas | DRH](https://img.shields.io/badge/Paco%20Salas%20%7C%20DRH-Profile-334155?style=for-the-badge)](https://github.com/pacosalasv) [![Xtreme Mindset](https://img.shields.io/badge/Xtreme%20Mindset-Site-64748B?style=for-the-badge)](https://xtreme-mindset.blogspot.com/)
+[![Support](https://img.shields.io/badge/Support-Issues%20%26%20Discussions-1E5BFF?style=for-the-badge)](https://github.com/pacosalasv/DRH_Image_Optimizer_Portable-Support/issues) [![Xtreme Mindset](https://img.shields.io/badge/Xtreme%20Mindset-Product%20Lab-64748B?style=for-the-badge)](https://xtrememindset.blogspot.com/) [![Paco Salas | DRH](https://img.shields.io/badge/Paco%20Salas%20%7C%20DRH-Site-334155?style=for-the-badge)](https://pacosalasv.blogspot.com/)
 
 </div>
 
@@ -16,39 +16,46 @@
 
 ## Overview
 
-DRH Image Optimizer Portable is a Windows x64 image-processing utility with native GUI and console workflows. The supplied v1.5.2 build supports queued processing, output-format control, optional metadata removal, temporary per-image workspaces, safe final replacement with rollback, and progress/reporting workflows.
+DRH Image Optimizer Portable is built for people who need smaller, cleaner image assets without turning optimization into a separate production step. It combines native Windows portability, batch processing, format conversion, metadata control, safe replacement, and resilient long-path handling in one compact utility.
+
+Use it for web assets, documentation, presentations, product images, 3D pipelines, archives, or any workflow where file size matters but reliability matters just as much. The GUI is designed for fast visual operation, while the console engine and drop-target launchers make repeatable batch work easy to automate.
+
+## Key features
+
+- **Lossless, Smart, and Ultra workflows** for choosing the right balance between preservation and size reduction.
+- **Wide input coverage** including PNG, JPEG/JFIF, GIF, BMP/DIB, TIFF, WebP, SVG, ICO, AVIF, HEIC, and HEIF when the required Windows/browser decoder is available.
+- **Keep format, Automatic, and PNG output modes** so the output strategy matches the job instead of forcing one format.
+- **Native GUI plus standalone console engine** for interactive work, scripted workflows, and repeatable batch processing.
+- **Metadata controls** for supported JPEG and PNG structures, including optional stripping when privacy or delivery size matters.
+- **Safe final replacement and rollback** designed to protect existing destinations if the final write fails.
+- **Temporary per-image workspaces** that improve resilience with deep paths, different volumes, and intermediate files.
+- **Responsive batch processing** with progress percentage, capped visual logs, and persistent CSV reporting.
+
+## Standout tools and workflows
+
+| Tool / workflow | Why it matters |
+|---|---|
+| **Lossless** | Preserve decoded pixel content while optimizing compatible PNG/JPEG-family files. |
+| **Smart** | Prioritize practical size reduction with controlled visual trade-offs for everyday production work. |
+| **Ultra** | Push harder on optimization when delivery size matters most. |
+| **Drop-here workflows** | Launch common optimization modes directly from dedicated batch files. |
+| **Metadata control** | Remove supported metadata when a cleaner, leaner delivery file is preferred. |
+| **Safe replace + rollback** | Commit final output carefully and restore the previous destination when recovery material is available. |
+| **GUI + CLI** | Move between point-and-click use and automation without changing tools. |
 
 ## Product status
 
 | Item | Details |
 |---|---|
-| Status | **Current build** |
+| Status | **Current release** |
 | Version | 1.5.2 |
 | Product type | Portable desktop utility |
-| Environment | Windows x64 |
-| Distribution | Installable product files are not mirrored in this support repository. |
-| Repository role | Documentation, support, issue tracking, compatibility feedback, and product feedback |
-
-## Capabilities
-
-| Capability |
-|---|
-| Lossless, Smart, and Ultra optimization workflows documented by the supplied build. |
-| Accepted queue inputs include PNG, JPG/JPEG/JFIF, GIF, BMP/DIB, TIFF, WebP, SVG, ICO, AVIF, HEIC, and HEIF, subject to decoder availability. |
-| Keep-format, automatic output, and PNG output modes. |
-| GUI and standalone console engine. |
-| Optional metadata removal for supported JPEG and PNG metadata structures. |
-| Temporary per-image processing under the Windows TEMP directory to reduce long-path and cross-volume problems. |
-| Safe final replacement with rollback when a previous destination is available. |
-| Bilingual GUI and persistent CSV reporting support. |
+| Platform | Windows x64 |
+| Best for | Batch optimization, conversion, delivery assets, repeatable image workflows |
 
 ## Media
 
-The featured image above is the current public product identity/reference image for this support repository.
-
-## Product reference
-
-This page is based on the supplied **DRH Image Optimizer Portable 1.5.2** build/reference files. The installable product is intentionally kept outside this public support repository.
+Additional screenshots and workflow examples are coming soon.
 
 ## Documentation and support
 
@@ -61,7 +68,7 @@ This page is based on the supplied **DRH Image Optimizer Portable 1.5.2** build/
 
 ## Support development
 
-Ko-fi support is optional. Contributions help fund maintenance, compatibility work, documentation, testing, and continued development of practical free tools.
+If this tool saves you time, Ko-fi support helps fund maintenance, compatibility work, documentation, testing, and continued development.
 
 <div align="center">
   <a href="https://ko-fi.com/pacosalasv">
@@ -73,10 +80,12 @@ Ko-fi support is optional. Contributions help fund maintenance, compatibility wo
 
 | Destination | Link |
 |---|---|
-| Paco Salas \| DRH | [GitHub profile](https://github.com/pacosalasv) |
-| Xtreme Mindset | [Product and experimentation site](https://xtreme-mindset.blogspot.com/) |
+| Xtreme Mindset | [Product lab and experimentation](https://xtrememindset.blogspot.com/) |
+| Paco Salas \| DRH | [Software, automation, 3D, AI, and product work](https://pacosalasv.blogspot.com/) |
+| KreaOn | [Applied technology education](https://www.kreaon.com/) |
+| DRH Blender Tools | [Browse Blender tools on BlendKit](https://www.blendkit.com/?query=author_id:205846) |
 | Ko-fi | [Support development](https://ko-fi.com/pacosalasv) |
 
 ## License
 
-The supplied v1.5.2 package includes the MIT License. This support repository does not mirror the executable distribution.
+DRH Image Optimizer Portable is released under the **MIT License**.

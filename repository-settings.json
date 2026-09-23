@@ -1,6 +1,6 @@
 {
-  "description": "Documentation and support for DRH Image Optimizer Portable v1.5.2, a Windows GUI/CLI image optimization and conversion utility.",
-  "homepage": "https://xtreme-mindset.blogspot.com/",
+  "description": "Portable Windows image optimizer with Lossless/Smart/Ultra modes, batch conversion, metadata controls, safe rollback, GUI and CLI workflows.",
+  "homepage": "https://xtrememindset.blogspot.com/",
   "visibility": "public",
   "has_issues": true,
   "has_discussions": true,
