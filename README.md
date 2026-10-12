@@ -103,3 +103,16 @@ If this tool saves you time, you can support maintenance, compatibility work, do
 ## License
 
 DRH Image Optimizer Portable is released under the **MIT License**.
+---
+
+## Help
+
+Open an Issue here for bugs. For delivery questions, check SUPPORT.md first.
+
+<div align="center">
+  <a href="https://ko-fi.com/pacosalasv">
+    <img width="420" alt="Support on Ko-fi" src="docs/media/SupportMe.png" />
+  </a>
+</div>
+
+<sub>Xtreme Mindset · Updated 2026-10 — v19.1</sub>
