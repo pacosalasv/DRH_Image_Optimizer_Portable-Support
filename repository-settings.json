@@ -1,0 +1,17 @@
+{
+  "description": "Portable Windows image optimizer with Lossless/Smart/Ultra modes, batch conversion, metadata controls, safe rollback, GUI and CLI workflows.",
+  "homepage": "https://xtrememindset.blogspot.com/",
+  "visibility": "public",
+  "has_issues": true,
+  "has_discussions": true,
+  "topics": [
+    "image-optimization",
+    "image-conversion",
+    "windows",
+    "portable",
+    "png",
+    "jpeg",
+    "automation",
+    "technical-support"
+  ]
+}
